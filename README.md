@@ -10,6 +10,7 @@ VanillaJS library without jQuery, bootstrap and etc. dependency.
 ## Status
 
 This is under active development stage **(not production ready)**.
+But i uses this library in my projects already.
 
 | **Idea** | Alpha | Beta | RC | Production |
 |:--------:|:-----:|:----:|:--:|:----------:|
