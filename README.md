@@ -5,18 +5,7 @@ Make pushable button radio behaviour.
 
 VanillaJS library without jQuery, bootstrap and etc. dependency.
 
-![button-radio Example](/button-radio.png)
-
-## Status
-
-This is under active development stage **(not production ready)**.
-But i already use this library in my own projects.
-
-| **Idea** | Alpha | Beta | RC | Production |
-|:--------:|:-----:|:----:|:--:|:----------:|
-|  **Ok**  |v.0.1.x|  —   |  — |     —    |
-
-## Using
+# Example
 
 ```html
 <div class="button-radio-group" data-name="radio-group-1">
@@ -26,11 +15,13 @@ But i already use this library in my own projects.
 </div>
 ```
 
+![button-radio Example](/button-radio.png)
+
 ```js
     var buttonRadio = new ButtonRadio('.button-radio-group', function (response) {
     // The on change callback.
     // callback code here ...
-    //
+    console.log(response);
     // response:
     // {
     //      prevButton: Node,
@@ -41,3 +32,28 @@ But i already use this library in my own projects.
     // }
     });
 ```
+
+# Status
+
+This is under active development stage **(not production ready)**.
+But i already use this library in my own projects.
+
+| **Idea** | Alpha | Beta | RC | Production |
+|:--------:|:-----:|:----:|:--:|:----------:|
+|  **Ok**  |v.0.1.x|  —   |  — |     —    |
+
+# Using
+
+# Demo
+
+
+# License
+
+All under MIT license.
+
+# Contribution
+
+You're welcome!
+I watch github issues and mailbox (me@invntrm.ru).
+
+English typo-fixes are welcome too.
