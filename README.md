@@ -9,7 +9,11 @@ VanillaJS library without jQuery, bootstrap and etc. dependency.
 
 ## Status
 
-The Idea
+This is under active development stage **(not production ready)**.
+
+| **Idea** | Alpha | Beta | RC | Production |
+|:--------:|:-----:|:----:|:--:|:----------:|
+|  **Ok**  |v.0.1.x|  —   |  — |     —    |
 
 ## Using
 
@@ -22,11 +26,17 @@ The Idea
 ```
 
 ```js
-_(document.querySelector('.button-radio-group')) // lodash is not required
-  .forEach (buttonRadio);
+    var buttonRadio = new ButtonRadio('.button-radio-group', function (response) {
+    // The on change callback.
+    // callback code here ...
+    //
+    // response:
+    // {
+    //      prevButton: Node,
+    //      curButton:  Node,
+    //      groupNode:  Node,
+    //      value:      string,
+    //      prevValue:  string
+    // }
+    });
 ```
-
-## TODO
-* ...
-* ???
-* PROFIT!!!
