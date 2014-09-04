@@ -10,7 +10,7 @@ VanillaJS library without jQuery, bootstrap and etc. dependency.
 ## Status
 
 This is under active development stage **(not production ready)**.
-But i uses this library in my projects already.
+But i already use this library in my own projects.
 
 | **Idea** | Alpha | Beta | RC | Production |
 |:--------:|:-----:|:----:|:--:|:----------:|
@@ -20,9 +20,9 @@ But i uses this library in my projects already.
 
 ```html
 <div class="button-radio-group" data-name="radio-group-1">
-    <button type="button" value="mode-1" class=" checked">Mode 1</button>
-    <button type="button" value="mode-2" class="" >Mode 2</button>
-    <button type="button" value="mode-3" class="" >Mode 3</button>
+    <button type="button" value="mode-1" >Mode 1</button>
+    <button type="button" value="mode-2" >Mode 2</button>
+    <button type="button" value="mode-3" class="checked" >Mode 3</button>
 </div>
 ```
 
